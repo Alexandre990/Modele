@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="ptBR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>início</title>
+    <title>Contato</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
     <link rel="stylesheet" href="../css/styles.css">
 
 </head>
@@ -23,25 +25,37 @@
             <div id="menu" class="fas fa-bars"></div>
 
             <nav class="navbar">
-                <a href="index.html">Início</a>
-                <a href="contact.html">Contato</a>
+                <a href="../Home/index.html">Início</a>
             </nav>
 
         </header>
 
-        <!-- home section  -->
+        <h1 class="heading">Contate-nos</h1>
 
-        <section class="home">
+        <!-- contact section  -->
 
-            <div class="content">
-                <h3>Descubra uma nova tecnologia em costura</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia repellat aperiam libero, beatae
-                    debitis iusto quia sit aliquid placeat facilis?</p>
-            </div>
+        <section class="contact">
 
             <div class="image">
-                <img src="../assets/modele.jpeg" alt="">
+                <img src="../assets/email3.png" alt="">
             </div>
+
+            <form action="https://formsubmit.co/alexandre9616@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <!-- <input type="hidden" name="_next" value="http://127.0.0.1:5500/html/home.html"> -->
+
+                <div class="inputBox">
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                </div>
+
+                <input type="text" placeholder="Título" class="box" required>
+
+                <textarea placeholder="Mensagem" name="message" cols="30" rows="10" required></textarea>
+
+                <input type="submit" class="btn" value="Enviar" href="../Home/index.html">
+
+            </form>
 
         </section>
 
@@ -59,8 +73,8 @@
 
                 <div class="box">
                     <h3>Links Rápidos</h3>
-                    <a href="./index.html">Início</a>
-                    <a href="./contact.html">Contato</a>
+                    <a href="../Home/index.html">Início</a>
+                    <a href="#">Contato</a>
                 </div>
 
                 <div class="box">
@@ -83,17 +97,6 @@
         </section>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
