@@ -206,6 +206,13 @@ header .navbar a:hover {
     resize: none;
 }
 
+.terms-of-use {
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
 .footer .box-container {
     display: flex;
     flex-wrap: wrap;
