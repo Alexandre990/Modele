@@ -230,6 +230,9 @@ header .navbar a:hover {
 }
 
 .footer .box-container .box p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-size: 1.5rem;
     color: #666;
     padding: .7rem 0;
