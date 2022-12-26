@@ -171,7 +171,7 @@ header .navbar a:hover {
 
 .contact .image {
     flex: 1 1 35rem;
-    margin-top: 65px;
+    margin-top: 6.5rem;
 }
 
 .contact .image img {
@@ -268,7 +268,7 @@ header .navbar a:hover {
 
 }
 
-@media (max-width:768px) {
+@media (max-width:76.8rem) {
 
     #menu {
         display: initial;
@@ -302,7 +302,7 @@ header .navbar a:hover {
 
 }
 
-@media (max-width:400px) {
+@media (max-width:40rem) {
 
     html {
         font-size: 50%;
